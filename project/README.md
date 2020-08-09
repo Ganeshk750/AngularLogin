@@ -1,6 +1,6 @@
 
 
-![Image of Loigin](/login.png)
+![Image of Loigin](https://github.com/Ganeshk750/AngularLogin/blob/master/project/login.png)
 
 # Project
 
