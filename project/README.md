@@ -2,6 +2,9 @@
 
 ![Image of Loigin](https://github.com/Ganeshk750/AngularLogin/blob/master/project/login.png)
 
+# 2nd
+![Image of Loigin](https://github.com/Ganeshk750/AngularLogin/blob/master/project/login1.png)
+
 # Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
