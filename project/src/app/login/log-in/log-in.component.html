@@ -1,0 +1,33 @@
+<h2 style="text-align: center; color: #000;">Login</h2><br>
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <form [formGroup]="loginForm" (ngSubmit)="logIn()">
+   <div class ="form-group">
+     <label for = "username"><B>Username</B></label>
+       <input type="text" class="form-control" formControlName="username" autocomplete="off" />
+       <span *ngIf="username.touched && username.invalid">
+         <div class="alert alert-danger" role="alert">
+           Please Enter Your Username. This is required One.
+         </div>
+          
+       </span>
+  </div>
+   <div class ="form-group">
+      <label for = "password"><B>Password</B></label>
+       <input type="password" class="form-control" formControlName="password" autocomplete="off" />
+        <span *ngIf="password.touched && password.invalid">
+           <div class="alert alert-danger" role="alert">
+           Please Enter Your Password. This is required One.
+         </div>
+       </span>
+    </div>
+    <div>
+      <input type ="submit" name ="submit" id="submit" class ="btn btn-success">
+     
+    </div>
+ </form>
+    </div>
+    
+  </div>
+</div>

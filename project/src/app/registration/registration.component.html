@@ -1,0 +1,27 @@
+<!--{{parentData}}-->
+<br>
+<!--<button (click) = "sendDataToparent()"> Click Me </button>-->
+<!---- For NgContent Trick 1-->
+<h5>child data</h5>
+<!--<ng-content></ng-content>-->
+<!---- For NgContent  Trick 1-->
+<!----========Trick 2=======-->
+<!--<div class="card">
+    <div class="card-header">Heading</div>
+    <div class="card-body">Body Part</div>
+</div>-->
+<!----========Trick 2=======-->
+<div class="card">
+        <div class="card-header">
+         <ng-content select = ".headingPart"></ng-content>
+        </div>
+        <div class="card-body">
+         <ng-content select = ".bodyPart"></ng-content>
+        </div>
+    </div>
+
+    <br>
+    <div>
+        <h4>This is for the custom Pipes..</h4>
+        {{articles | customslice}}
+    </div>
