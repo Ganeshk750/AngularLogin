@@ -6,3 +6,9 @@ Sample Angular Test app
  IST View
  ````
  ![Image of Loigin](https://github.com/Ganeshk750/AngularLogin/blob/master/first.png)
+ 
+ ````
+ 2nd View
+ ````
+ ![Image of Loigin](https://github.com/Ganeshk750/AngularLogin/blob/master/second.png)
+
