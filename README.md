@@ -12,3 +12,7 @@ Sample Angular Test app
  ````
  ![Image of Loigin](https://github.com/Ganeshk750/AngularLogin/blob/master/second.png)
 
+ ````
+ 3rd View
+ ````
+ ![Image of Loigin](https://github.com/Ganeshk750/AngularLogin/blob/master/3rd.png)
